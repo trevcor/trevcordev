@@ -1,0 +1,64 @@
+{
+	"item":  
+		[
+			{
+				"id":  "FAP",
+				"title": "Fresh Air Photo",
+				"body": "This is a cool wordpress blog made for Fresh Air Photo, an awesome photography company located in Johnson City, TN.  This site uses a customized Wordpress theme and a was collaboration between Trevcor Dev and designer Jeremy Pass.",
+				"image":  [
+						{
+							"source":  "assets/img/FreshAirPhoto.png",
+							"title":  "Fresh Air Photo Home Page",
+							"caption":  "This a screenshot of the subpages for the site."
+						},
+						{
+							"source":  "assets/img/FreshAirPhoto2.png",
+							"title":  "Fresh Air Photo Home Page",
+							"caption":  "This a screenshot of the subpages for the site."
+						}
+
+				],
+				"message":  "Check out the full site:  <a href='http://freshairphoto.com/'>Fresh Air Photo</a>"
+
+			},
+			{
+				"id":  "Coke1",
+				"title": "Coca-Cola Sports & Entertainment Toolkit",
+				"body": "This was a quick prototype I made for an internal Coca-Cola team.  It is a portal that organizes access to documents and other assets managed through Microsoft Sharepoint.",
+				"image":  [
+						{
+							"source":  "assets/img/CokeSportsToolkit.png",
+							"title":  "Sports & Entertainment Asset Toolkit Portal",
+							"caption":  "This a screenshot of the home page."
+						},
+						{
+							"source":  "assets/img/CokeSportsToolkit2.png",
+							"title":  "Sports & Entertainment Asset Toolkit Portal",
+							"caption":  "This a screenshot of the subpages for the site."
+						}
+				]
+			},
+			{
+				"id":  "Coke2",
+				"title": "Coca-Cola Food & Beverages Services",
+				"body": "Another prototype I made for Coca-Cola corporate cafeterias.  It is a nice clean looking site that was built to tap into a sharepoint backend to load in weekly menu data.",
+				"image":  [
+						{
+							"source":  "assets/img/FoodAndBev1.png",
+							"title":  "Coca-Cola Food & Beverages Services",
+							"caption":  "Home page"
+						},
+						{
+							"source":  "assets/img/FoodAndBeverage2.png",
+							"title":  "Coca-Cola Food & Beverages Services",
+							"caption":  "Home page"
+						},
+						{
+							"source":  "assets/img/FoodAndBeverage3.png",
+							"title":  "Coca-Cola Food & Beverages Services",
+							"caption":  "Home page"
+						}
+				]
+			}
+		]	
+}

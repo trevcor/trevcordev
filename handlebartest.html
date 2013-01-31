@@ -1,0 +1,50 @@
+<html>
+   <head>
+	<meta http-equiv="Access-Control-Allow-Origin" content="*"> 
+	  <title>Handlebars Demo</title>
+	  <script src="http://code.jquery.com/jquery-latest.js"></script>
+	  <script type="text/javascript" src="assets/js/handlebars-1.0.rc.1.js"></script>
+   </head>
+   <body>
+	<div id="test">hi</div>
+<script id="entry-template" type="text/x-handlebars-template">
+  <div class="entry">
+  <h1>{{title}}</h1>
+  <div class="body">
+	{{body}}
+  </div>
+</div>
+</script>
+
+		
+   <script>
+	
+	//
+
+	$().ready(function () {
+			  var source   = $("#entry-template").html();
+			  var template = Handlebars.compile(source);
+			  //var context = {title: "My New Post",body: "This is my first post!"};
+			  var context = $.getJSON('test.json', function(data) {
+				console.log('hi')
+				  console.log(data)
+				   var html    = template(data);
+					$('#test').append(html);
+				});
+			  //console.log(context);
+			 
+				
+			   
+		 
+		});
+
+
+	
+	
+	
+ </script>
+
+	
+
+   </body>
+</html>

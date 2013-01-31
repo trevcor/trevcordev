@@ -1,0 +1,22 @@
+<script id="portfolio-template" type="text/x-handlebars-template">
+	<div class="portfolio-section">
+		{{#each item}}
+			<div class="portfolio-item">
+				<h2>{{ title }}</h2>
+				<p>{{ body }} </p>
+				<div id="portfolio-carousel_{{ id }}" class="carousel a">
+					<!-- Carousel items -->
+					<div class="carousel-inner">
+						{{#each image}}
+							<div class="item"><img title = "{{ title }}"  alt = "{{ title }}"  src="{{ source }}"></div>
+						{{/each}}
+					</div>
+					<!-- Carousel nav -->
+					<a class="carousel-control left" href="#portfolio-item_{{ id }}" data-slide="prev">&lsaquo;</a>
+					<a class="carousel-control right" href="#portfolio-item_{{ id }}" data-slide="next">&rsaquo;</a>
+				</div>
+		  		{{{ message }}}
+			</div>
+		 {{/each}}
+	  </div>
+</script>

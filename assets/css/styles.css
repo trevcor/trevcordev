@@ -1,0 +1,189 @@
+body{
+	background:url('../img/low_contrast_linen.png');
+	border-bottom: 5px solid #01b359;
+}
+.navbar-fixed-top {
+	border-top:5px solid #01b359;
+}
+.tagline{
+	float: left;
+	padding-top: 30px;
+	cursor:pointer;
+	color:white;
+}
+
+.tagline:hover{
+	color:#01b359;
+}
+
+.custom-nav{
+	float:right;
+}
+
+.main-heading{
+	font-size:36px;
+	line-height:44px;
+}
+
+.body-content{}
+.main-content{}
+
+
+.section-header{
+	background:black;
+	padding: 10px 20px;
+	color:white;
+}
+
+.top-section{
+	overflow:visible;
+	color:#01b359;
+	color:white;
+	padding:80px 0;
+	text-shadow: 2px 2px black;
+	text-align:center;
+}
+
+.section{}
+
+.body-content h2{
+	border-bottom:1px solid #EEE;
+}
+
+.portfolio-container{
+	
+}
+
+.portfolio-title{
+	background:black;
+	color:white;
+	margin-left:-20px;
+	padding:20px;
+	font-size:26px;
+	display:inline-block;
+	margin-bottom:10px;
+}
+
+.portfolio-item{
+	margin-top:20px;
+	padding: 10px 20px;
+	background:white;
+}
+
+.carousel-control {
+	top:50% !important;
+}
+
+.right-rail{
+	position:relative;
+}
+
+.contact-container{
+	padding:20px;
+	background:black;
+	color:white;
+	margin-top:20px;
+}
+
+.contact-container input, .contact-container textarea{
+	width:96%;
+}
+
+.contact-container .help-block{
+	color:white;
+}
+
+
+.affix {
+    position: fixed; 
+    top: 60px; 
+}
+
+.affix-bottom {
+	position: absolute;
+	bottom: 270px;
+}
+
+.danger-arrow{
+	border-right-color:#DA4F49 !important;
+}
+.popover .arrow::after{
+	border-width:0 !important;
+}
+
+.footer-content{
+	padding:20px 0;
+	color:white;
+
+}
+.footer-text{
+	padding-right:10px;
+	text-align:right;
+}
+
+
+@media (min-width: 1200px){
+	.contact-container{
+		width: 330px;
+	}
+}
+
+@media (min-width: 980px) and (max-width: 1199px) { 
+	.contact-container{
+		width: 260px;
+	}
+
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+	body{
+		margin-top:0 !important;
+	}
+	.tagline{
+		padding-top:10px;
+	}
+	.affix {
+		position: static;
+		width: auto;
+		top: 0;
+	}
+	.contact-container{
+		
+	}
+	.navbar .btn-navbar {
+		display: none;
+	}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+	body{
+		margin-top:0 !important;
+		padding:0 !important;
+	}
+	.navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+		margin:0 !important;
+	}
+	.navbar .btn-navbar {
+		display: none !important;
+	}
+	.tagline{
+		padding-top:10px;
+	}
+	.top-section{padding:10px 0 !important;}
+	.affix {
+		position: static;
+		width: auto;
+		top: 0;
+	}
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	body{
+		margin-top:0 !important;
+		padding:0;
+	}
+}
+
